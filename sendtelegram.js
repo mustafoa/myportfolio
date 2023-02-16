@@ -23,7 +23,7 @@ function toggleNavbar() {
     document.querySelector(".header").classList.toggle("active");
 }
 
-                        // Active Section
+// Active Section
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("link-item") && e.target.hash !== ""){
         // Overlay
